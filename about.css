@@ -1,0 +1,68 @@
+ .imgSlider .about {
+/* background: red; */
+height: 30vw;
+width: 90vw;
+display: flex;
+align-items: left;
+justify-content: left;
+flex-direction: column;
+padding: 2vw;
+
+background: rgba( 255, 255, 255, 0. );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+
+
+
+}
+
+.about h1{
+    font-size: 3vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.about p{
+    font-size: 1vw;
+}
+
+.btn{
+    background:none;
+    height: 3.5vw;
+    width: 15vw;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-left:0 ;
+}
+.btn .our-team{
+    padding: .5vw 2vw;
+    font-size: .9vw;
+    border: none;
+    outline: none;
+    background: black;
+    color: white;
+}
+
+.btn .our-team a{
+text-decoration: none;
+color: inherit;
+}
+.btn .our-team:hover{
+    transform:scale(.9);
+    transition: .3s linear;
+    background: black;
+    color: white;
+    border: none;
+}
+.btn .fa-solid:hover{
+   margin-left: 1vw;
+   transition: .5s linear;
+}
+
